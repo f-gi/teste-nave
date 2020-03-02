@@ -1,0 +1,59 @@
+*{
+     margin: 0;
+     font-family: "Courier New";
+}
+
+ul{
+     list-style: none;
+}
+
+p{
+     text-align: center;
+     /* margin-bottom: 20px; */
+}
+
+form{
+     text-align: center;
+     margin: 15px;
+}
+
+label{
+     display: block;
+}
+
+button{
+     cursor: pointer;
+} 
+
+.container{
+     /* background-color: bisque; */
+     width: 100%;
+     margin: 0 auto;
+}
+
+.card{
+     transition: 0.3s;
+     width: 93%;
+     margin: 0 auto;
+     margin-bottom: 20px;
+     padding: 10px;
+     /* background-color: lightpink; */
+} 
+  
+ .card:hover {
+     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  /* tablet */
+@media screen and (min-width: 768px) {
+    /* .container{
+        width: 100%;
+   } */
+}
+  
+  /*  monitor  */
+@media screen and (min-width: 992px) {
+    .card{
+        width: 70%;
+    }
+}

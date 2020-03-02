@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    /* font-family: "Verdana, sans-serif"; */
+    font-family: "Courier New";
+}
+
+ul{
+    list-style: none;
+}
+
+hr{
+    margin: 20px 0;
+}
+
+.container{
+    padding: 20px;
+}
+
+.post{
+    padding: 10px;
+    border-style: solid;
+    border: 1px solid #ddd;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.post-title{
+    margin-bottom: 10px;
+}
+
+.post-text{
+    margin-bottom: 10px;
+}
+
+/* .email{
+    text-align: left;
+} */
+
+li p{
+    display: inline-block;
+}
